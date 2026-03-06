@@ -63,6 +63,9 @@ body {
 .skip-link:focus {
     top: 0;
 }
+.bg-light {
+    background: var(--bg-light);
+}
 
 .header {
     background: var(--primary-white);

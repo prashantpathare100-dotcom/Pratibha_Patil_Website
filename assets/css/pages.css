@@ -1,4 +1,4 @@
-/* assets/css/pages.css */
+/* assets/css/pages.css      pages*/
 .page-header {
     background: linear-gradient(135deg, var(--primary-saffron) 0%, var(--primary-navy) 100%);
     color: var(--primary-white);
@@ -602,5 +602,6 @@
     .contact-grid {
         grid-template-columns: 1fr;
         gap: 2rem;
+
     }
 }

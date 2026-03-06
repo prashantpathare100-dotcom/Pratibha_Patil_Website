@@ -22,22 +22,7 @@
     --glass-border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-[data-theme="dark"] {
-    --primary-saffron: #FFB366;
-    --primary-navy: #4D4DFF;
-    --primary-white: #1A1A1A;
-    --text-dark: #F5F5F5;
-    --text-light: #333333;
-    --bg-light: #2D2D2D;
-    --bg-dark: #1A1A1A;
-    --gray-100: #2D2D2D;
-    --gray-200: #404040;
-    --gray-300: #595959;
-    --gray-400: #737373;
-    --gray-500: #8C8C8C;
-    --glass-bg: rgba(0, 0, 0, 0.3);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
-}
+
 
 * {
     margin: 0;
@@ -154,30 +139,6 @@ body {
     width: 100%;
 }
 
-.theme-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    color: var(--text-dark);
-    padding: 5px;
-}
-
-.theme-toggle .fa-sun {
-    display: none;
-}
-
-.theme-toggle .fa-moon {
-    display: block;
-}
-
-[data-theme="dark"] .theme-toggle .fa-sun {
-    display: block;
-}
-
-[data-theme="dark"] .theme-toggle .fa-moon {
-    display: none;
-}
 
 /* Hero */
 .hero {
